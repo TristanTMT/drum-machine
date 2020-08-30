@@ -1,0 +1,28 @@
+body {
+    background: url(./media/images/melon.jpg) no-repeat center/cover;
+    height: 100vh;
+}
+
+.music-box {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    padding-top: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.drum {
+    flex: 1 0 15%;
+    padding: 2.5rem;
+    margin: 5px;
+    text-align: center;
+    background: cyan;
+    box-shadow: 2px 2px 2px black;
+    cursor: pointer;
+}
+
+.drum:active {
+    transform: scale(0.5);
+    transition: 0.3s;
+}
